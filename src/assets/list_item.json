@@ -1,0 +1,18 @@
+[{
+    "name": "小米网",
+    "detail":"小米官网",
+    "url":"http://www.mi.com"
+},{
+    "name":"天津师范大学邮件系统",
+    "detail":"快速访问校内邮件系统",
+    "url":"https://mail.tjnu.edu.cn/"
+},{
+    "name":"天津师范大学教务系统",
+    "detail":"快速访问教务系统，可快速查看课表，评教，查看成绩（部分时候要开vpn）",
+    "url":"https://jwxt.tjnu.edu.cn/tjsfjw/cas/login.action"
+},{
+    "name":"酷安网",
+    "detail":"酷安官网",
+    "url":"http://www.coolapk.com"
+}
+]
