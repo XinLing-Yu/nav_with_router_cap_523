@@ -1,18 +1,89 @@
-[{
-    "name": "小米网",
-    "detail":"小米官网",
-    "url":"http://www.mi.com"
-},{
-    "name":"天津师范大学邮件系统",
-    "detail":"快速访问校内邮件系统",
-    "url":"https://mail.tjnu.edu.cn/"
-},{
-    "name":"天津师范大学教务系统",
-    "detail":"快速访问教务系统，可快速查看课表，评教，查看成绩（部分时候要开vpn）",
-    "url":"https://jwxt.tjnu.edu.cn/tjsfjw/cas/login.action"
-},{
-    "name":"酷安网",
-    "detail":"酷安官网",
-    "url":"http://www.coolapk.com"
-}
+[
+    {
+        "category": "mi",
+        "sites": [
+            {
+                "avatar": "@/assets/mi_faviconV2.png",
+                "name": "小米社区",
+                "detail": "前往小米社区",
+                "url": "http://www.xiaomi.cn"
+            }
+        ]
+    },
+    {
+        "category": "flashing",
+        "sites": [
+            {
+                "avatar": "@/assets/mi_faviconV2.png",
+                "name": "酷安网",
+                "detail": "酷安官网",
+                "url": "http://www.coolapk.com"
+            },
+            {
+                "avatar": "@/assets/mi_faviconV2.png",
+                "name": "一加官网",
+                "detail": "下载ROM",
+                "url": "https://oneplus.com"
+            },
+            {
+                "avatar": "@/assets/mi_faviconV2.png",
+                "name": "小米MIUI下载",
+                "detail": "miui全机型下载",
+                "url": "https://roms.miuier.com/zh-cn/"
+            }
+        ]
+    },
+    {
+        "category": "tjnu",
+        "sites": [
+            {
+                "avatar": "@/assets/mi_faviconV2.png",
+                "name": "天津师范大学邮件系统",
+                "detail": "快速访问校内邮件系统",
+                "url": "https://mail.tjnu.edu.cn/"
+            },
+            {
+                "avatar": "@/assets/mi_faviconV2.png",
+                "category": "tjnu",
+                "name": "天津师范大学教务系统",
+                "detail": "快速访问教务系统（部分时候要开vpn）",
+                "url": "https://jwxt.tjnu.edu.cn/tjsfjw/cas/login.action"
+            }
+        ]
+    },
+    {
+        "category": "AI",
+        "sites": [
+            {
+                "avatar": "@/assets/mi_faviconV2.png",
+                "name": "ChatGPT",
+                "detail": "8说了，yyds",
+                "url": "https://jwxt.tjnu.edu.cn/tjsfjw/cas/login.action"
+            },
+            {
+                "avatar": "@/assets/mi_faviconV2.png",
+                "name": "BAIChat",
+                "detail": "备用，也很8错",
+                "url": "https://chatbot.theb.ai/"
+            }
+        ]
+    },
+    {
+        "category": "tool",
+        "sites": [
+            {
+                "avatar": "@/assets/mi_faviconV2.png",
+                "name": "WORLDVECTORLOGO",
+                "detail": "获取logo的，也很好用",
+                "url": "https://worldvectorlogo.com/"
+            },
+            {
+                "avatar": "@/assets/mi_faviconV2.png",
+                "name": "01234567890",
+                "detail": "测试字体BNM12790",
+                "url": "https://chatbot.theb.ai/"
+            }
+        ]
+    }
+    
 ]
