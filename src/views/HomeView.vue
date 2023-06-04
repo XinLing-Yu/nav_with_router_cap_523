@@ -3,20 +3,28 @@
     <div> <!--标题-->
       <h1 class="h-title">CAP的日用品</h1>
     </div>
-    <!-- 搜索（后期功能，占位） -->
+    <!-- 搜索 -->
     <div class="searchbar-container">
-      <input type="text" placeholder="搜索（不可用）" />
+      <Searchbar @search="startSearch"></Searchbar>
     </div>
     <div> <!--详情-->
       <!-- 卡片外围 -->
-      <Card></Card>
+      <Card ref="card"></Card>
       <!-- 卡片外围结束 -->
     </div>
   </div>
 </template>
 <script setup lang="ts">
+  import { ref } from 'vue'
   import Card from '@/components/Card.vue';
+  import Searchbar from '@/components/Searchbar.vue'
   
+  const card = ref<any>()
+  //开始搜索
+  const startSearch = (search:string) =>{
+    console.log(search)
+    card.value.showFilter(search)
+  }
 
 </script>
 <style>
@@ -26,10 +34,8 @@
          url(@/assets/OPPOSans3.0cn-Regular.ttf) format('truetype');
   }
   body{
-    background: url(@/assets/cap_bg.svg) center center/cover no-repeat;
+    background-image: url(../assets/cap-bg.jpg);
     font-family: 'custom';
-    
-    
   }
   
   .h-title{

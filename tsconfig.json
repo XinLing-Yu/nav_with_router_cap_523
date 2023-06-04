@@ -8,7 +8,7 @@
       "path": "./tsconfig.app.json"
     },
     {
-      "path": "@/assets/list_item.json"
+      "path": "./src/assets/list_item.json"
     }
   ]
 }
