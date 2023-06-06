@@ -55,10 +55,14 @@
                 "url": "https://chat.openai.com"
             },
             {
-                "avatar": "@/assets/mi_faviconV2.png",
                 "name": "BAIChat",
                 "detail": "备用，也很8错",
                 "url": "https://chatbot.theb.ai/"
+            },
+            {
+                "name": "Poe",
+                "detail": "目前在用的新工具，集成了很多模型",
+                "url": "https://poe.com/"
             }
         ]
     },
