@@ -1,5 +1,6 @@
 interface Sites{
     name:string,
+    encrypted:boolean,
     detail:string
     url:string
 }
