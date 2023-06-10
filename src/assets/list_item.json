@@ -33,10 +33,10 @@
         "category": "netdisk",
         "sites": [
             {
-                "name": "M365个人云盘（加密测试）",
+                "name": "涩涩网盘区",
                 "encrypted": true,
-                "detail":"个人网盘，啥都有，顺便测试加密了",
-                "url":"https://rage21-my.sharepoint.com/"
+                "detail":"非365完整网盘 方便进去罢了",
+                "url":"https://rage21-my.sharepoint.com/:f:/g/personal/kiwixin_rage21_onmicrosoft_com/EhVnFB6JhuNAtbETjmwqUFkBXQCVD8HcEIhpbiRXdSqJfg?e=CSNK8l"
             },
             {
                 "name": "预留（不加密预留）",
